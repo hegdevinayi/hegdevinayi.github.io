@@ -49,14 +49,15 @@ hr {
   margin-bottom: 1.75em;
 }
 
-.email {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 0.95em;
-  letter-spacing: -5%;
+.contact-links {
+  margin: auto;
+  text-align: center;
 }
 
-.contact-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.contact-link {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.95em;
+  letter-spacing: -0.025em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
 }
