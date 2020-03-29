@@ -1,32 +1,38 @@
+:root {
+  --text-color: #464646;
+  --hr-color: #BBBBBB;
+}
+
 body {
-  font-family: "Assistant", "Arial", sans-serif;
-  letter-spacing: -0.00278em;
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
   line-height: 1.6;
-  color: #333;
-  width: 90%;
-  margin: 2em auto;
+  color: var(--text-color);
 }
 
-.titlebar-container {
-  display: flex;
-}
-
-.content {
-  max-width: 600px;
+.all-content {
+  max-width: 40em;
+  margin: auto;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
+  font-weight: 400;
   text-align: center;
+  margin-top: 1.25em;
+  margin-bottom: 0.50em;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:link {
-  color: Teal;
+  color: SteelBlue;
 }
 
 a:visited {
@@ -35,4 +41,22 @@ a:visited {
 
 a:hover {
   color: Black;
+}
+
+hr {
+  border: 0.075em solid var(--hr-color);
+  margin-top: 1em;
+  margin-bottom: 1.75em;
+}
+
+.email {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.95em;
+  letter-spacing: -5%;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
