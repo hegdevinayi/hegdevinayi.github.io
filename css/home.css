@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", Helvetica, sans-serif;
+  font-family: "Lato", Helvetica, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
 }
@@ -55,7 +55,7 @@ hr {
 }
 
 .contact-link {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Lato", monospace;
   font-size: 0.95em;
   letter-spacing: -0.025em;
   margin-left: 0.75em;
